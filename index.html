@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!--Area de dependencias internas-->
+
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <script src="src/js/index.js"></script>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!--Area de dependencias externas-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <center>
+        <div class="main">
+          <img
+            class="porfilimage"
+            src="https://media-exp1.licdn.com/dms/image/C5603AQGa5gU8wgi6Jg/profile-displayphoto-shrink_800_800/0/1648832917736?e=2147483647&v=beta&t=cQJJohuZ1BPt57ISnYe78dMr47Bi4S5KkQpbYAif2SU"
+            alt="porfil image"
+          />
+          <p>Hi 👋 I'm Luis</p>
+          <h1>This is my personal portfolio</h1>
+        </div>
+        <div class="main">
+          <p>Contact me:</p>
+          <form action="contact.html" method="post">
+            <input
+              id="firstName"
+              class="inputtext"
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+            />
+            <br />
+            <input
+              id="email"
+              class="inputtext"
+              type="text"
+              name="email"
+              placeholder="Email"
+            />
+            <br />
+            <textarea
+              name="description"
+              class="inputtextarea"
+              id="description"
+              placeholder="Comment"
+            ></textarea>
+            <br />
+            <input type="submit" class="inputsubmit" value="Contact me" />
+          </form>
+        </div>
+      </center>
+    </div>
+    <div class="contents">
+      <h1>Projects</h1>
+      <div class="galery">
+        <div class="post" onclick="modal('hola')">
+          <p>hola</p>
+        </div>
+        <div class="post">
+          <p>hola</p>
+        </div>
+        <div class="post">
+          <p>hola</p>
+        </div>
+        <div class="post">
+          <p>hola</p>
+        </div>
+        <div class="post">
+          <p>prueba</p>
+        </div>
+      </div>
+    </div>
+    <div class="fooder">
+      <h1>contenido</h1>
+    </div>
+  </body>
+</html>

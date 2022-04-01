@@ -1,0 +1,120 @@
+.header {
+	background: #550000;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.porfilimage {
+	border-radius: 1000000px;
+	border: solid;
+	border-color: #fff;
+	height: 200px;
+}
+
+.main {
+	padding-top: 100px;
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	width: 380;
+}
+
+.inputtext {
+	background: #7b0000;
+	color: #fff;
+	padding: 4px;
+	margin: 3px;
+	text-align: center;
+	border: none;
+	width: 250px;
+	height: 30px;
+	border-radius: 7px;
+}
+
+.inputtextarea {
+	background: #7b0000;
+	color: #fff;
+	padding: 4px;
+	margin: 3px;
+	text-align: center;
+	border: none;
+	width: 250px;
+	height: 90px;
+	border-radius: 7px;
+}
+
+.inputsubmit {
+	background: #CA6702;
+	color: #fff;
+	padding: 4px;
+	margin: 3px;
+	text-align: center;
+	border: none;
+	width: 250px;
+	height: 30px;
+	border-radius: 7px;
+}
+
+.inputsubmit:hover{
+	background-color: #EE9B00;
+}
+
+.inputtext::-webkit-input-placeholder {
+	font-family: 'Fira Code', monospace;
+}
+
+.inputtextarea::-webkit-input-placeholder {
+	font-family: 'Fira Code', monospace;
+}
+
+.contents {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.galery{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%,20rem),1fr));
+}
+
+.post{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/07/Neovim-mark-flat.svg);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: center;
+	background-color: #fff;
+	padding: 1em;
+	color: transparent;
+	text-align: center;
+	margin: 4em;
+	height: 20em;
+	border-top-right-radius: 25px;
+}
+
+.post:hover{
+	background-image: url();
+	background-color:#001219;
+	color:#ffffff;
+}
+
+::placeholder{
+	color: #fff;
+}
+
+p {
+	font-size: 20px;
+}
+
+textarea {
+	resize: none;
+}
+
+body {
+	font-family: 'Fira Code', monospace;
+	background: #f0f0f0f0;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}

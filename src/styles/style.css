@@ -16,12 +16,19 @@ p {
 	font-size: 25px;
 }
 
+input{
+	font-family: 'Montserrat', sans-serif;
+}
+
+	
+
 h1 {
 	font-size: 40px;
 }
 
 textarea {
 	resize: none;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .header {

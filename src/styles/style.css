@@ -1,3 +1,29 @@
+body {
+	background: #f0f0f0f0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	font-size: 15px;
+}
+
+::placeholder{
+	color: #fff;
+	font-size: 15px;
+}
+
+p {
+	font-size: 25px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+textarea {
+	resize: none;
+}
+
 .header {
 	background: #006E7F;
 	padding: 0px;
@@ -15,9 +41,14 @@
 }
 
 .main {
-	padding-top: 100px;
+	padding-top: 80px;
 	color: #fff;
-	font-family: 'Fira Code', monospace;
+	width: 380;
+}
+
+.contactMe {
+	padding-top: 30px;
+	color: #fff;
 	width: 380;
 }
 
@@ -61,13 +92,6 @@
 	background-color: #EE9B00;
 }
 
-.inputtext::-webkit-input-placeholder {
-	font-family: 'Fira Code', monospace;
-}
-
-.inputtextarea::-webkit-input-placeholder {
-	font-family: 'Fira Code', monospace;
-}
 
 .contents {
 	padding-top: 50px;
@@ -97,24 +121,4 @@
 	background-image: url();
 	background-color:#001219;
 	color:#ffffff;
-}
-
-::placeholder{
-	color: #fff;
-}
-
-p {
-	font-size: 20px;
-}
-
-textarea {
-	resize: none;
-}
-
-body {
-	font-family: 'Fira Code', monospace;
-	background: #f0f0f0f0;
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
 }

@@ -1,5 +1,5 @@
 .header {
-	background: #550000;
+	background: #006E7F;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
@@ -22,7 +22,7 @@
 }
 
 .inputtext {
-	background: #7b0000;
+	background: #0190a6;
 	color: #fff;
 	padding: 4px;
 	margin: 3px;
@@ -34,7 +34,7 @@
 }
 
 .inputtextarea {
-	background: #7b0000;
+	background: #0190a6;
 	color: #fff;
 	padding: 4px;
 	margin: 3px;
@@ -46,7 +46,7 @@
 }
 
 .inputsubmit {
-	background: #CA6702;
+	background: #EE5007;
 	color: #fff;
 	padding: 4px;
 	margin: 3px;

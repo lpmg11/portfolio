@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY ./ /app
 
-RUN npm i -g live-server
+RUN npm i -g serve
 
 EXPOSE 80
 
-ENTRYPOINT [ "live-server", "--port=80" ]
+ENTRYPOINT [ "serve", "-l 80" ]

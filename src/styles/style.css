@@ -102,6 +102,7 @@ textarea {
 	color: #fff;
 	padding: 4px;
 	margin: 3px;
+	margin-bottom: 40px;
 	text-align: center;
 	border: none;
 	width: 250px;
@@ -114,12 +115,17 @@ textarea {
 }
 
 .contents {
-	padding-top: 50px;
+	background: #f0f0f0;
+	padding-top: 120px;
+	border: 0px;
+	width: 100%;
+	min-height: calc(100vh - 120px);
 	text-align: center;
 }
 
 .galery {
 	display: grid;
+	padding-top: 120px;
 	grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
 }
 
@@ -129,11 +135,11 @@ textarea {
 	background-size: 200px;
 	background-position: center;
 	background-color: #fff;
-	padding: 1em;
+	padding: 2em;
 	color: transparent;
 	text-align: center;
-	margin: 4em;
-	height: 20em;
+	margin: 1em;
+	height: 25em;
 	border-top-right-radius: 25px;
 }
 

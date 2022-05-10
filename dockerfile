@@ -8,4 +8,4 @@ RUN npm i -g serve
 
 EXPOSE 80
 
-ENTRYPOINT [ "serve", "-l 80" ]
+ENTRYPOINT [ "serve", "-l", "tcp://0.0.0.0:80" ]

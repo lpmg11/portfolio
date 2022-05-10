@@ -26,10 +26,6 @@ h1 {
 	font-size: 40px;
 }
 
-h2 {
-	font-size: 35px;
-}
-
 textarea {
 	resize: none;
 	font-family: 'Montserrat', sans-serif;
@@ -105,12 +101,8 @@ textarea {
 
 
 .contents {
+	padding-top: 50px;
 	text-align: center;
-	padding: 0px;
-	margin: 100px 0px 0px 0px;
-	border: 0px;
-	width: 100%;
-	min-height: calc(100vh - 100px);
 }
 
 .galery{

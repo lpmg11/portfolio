@@ -1,13 +1,13 @@
 body {
 	background: #f0f0f0f0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
 	font-size: 15px;
 }
 
-::placeholder{
+::placeholder {
 	color: #fff;
 	font-size: 15px;
 }
@@ -16,11 +16,25 @@ p {
 	font-size: 25px;
 }
 
-input{
-	font-family: 'Montserrat', sans-serif;
+input {
+	font-family: "Montserrat", sans-serif;
 }
 
-	
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-text-fill-color: #fff;
+	-webkit-box-shadow: 0 0 0 30px #0190a6 inset !important;
+}
+
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+	-webkit-text-fill-color: #fff;
+	-webkit-box-shadow: 0 0 0 30px #0190a6 inset !important;
+}
 
 h1 {
 	font-size: 40px;
@@ -28,11 +42,11 @@ h1 {
 
 textarea {
 	resize: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 .header {
-	background: #006E7F;
+	background: #006e7f;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
@@ -84,7 +98,7 @@ textarea {
 }
 
 .inputsubmit {
-	background: #EE5007;
+	background: #ee5007;
 	color: #fff;
 	padding: 4px;
 	margin: 3px;
@@ -95,22 +109,21 @@ textarea {
 	border-radius: 7px;
 }
 
-.inputsubmit:hover{
-	background-color: #EE9B00;
+.inputsubmit:hover {
+	background-color: #ee9b00;
 }
-
 
 .contents {
 	padding-top: 50px;
 	text-align: center;
 }
 
-.galery{
+.galery {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(min(100%,20rem),1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
 }
 
-.post{
+.post {
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/07/Neovim-mark-flat.svg);
 	background-repeat: no-repeat;
 	background-size: 200px;
@@ -124,8 +137,8 @@ textarea {
 	border-top-right-radius: 25px;
 }
 
-.post:hover{
+.post:hover {
 	background-image: url();
-	background-color:#001219;
-	color:#ffffff;
+	background-color: #001219;
+	color: #ffffff;
 }
